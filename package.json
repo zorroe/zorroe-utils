@@ -1,5 +1,5 @@
 {
-  "name": "@zorroe/utils",
+  "name": "zorroe-utils",
   "version": "0.0.1",
   "description": "zorroe-utils",
   "main": "dist/zorroe-utils.cjs.js",
