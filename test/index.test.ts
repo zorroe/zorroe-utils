@@ -1,8 +1,8 @@
-import { formatTimeStamp } from '../src/index'
+import { formatDuration } from '../src/index'
 
-describe('格式化时间戳', () => {
+describe('毫秒转换为分秒值', () => {
   it('format', () => {
-    const time = formatTimeStamp(1034242343)
-    expect(time).toBe('1970-01-13')
+    const time = formatDuration(100000)
+    expect(time).toBe('01:40')
   })
 })

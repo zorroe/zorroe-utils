@@ -1,7 +1,7 @@
 {
   "name": "zorroe-utils",
   "type": "module",
-  "version": "0.1.1",
+  "version": "0.1.2",
   "packageManager": "pnpm@9.4.0",
   "description": "zorroe-utils",
   "author": "zorroe <1318753541@qq.com>",
@@ -23,17 +23,14 @@
     "lint": "eslint .",
     "lint:fix": "eslint . --fix"
   },
-  "dependencies": {
-    "dayjs": "^1.11.11"
-  },
   "devDependencies": {
     "@antfu/eslint-config": "2.22.2",
     "@babel/core": "^7.24.8",
     "@babel/preset-env": "^7.24.8",
     "@babel/preset-typescript": "^7.24.7",
     "@rollup/plugin-commonjs": "^26.0.1",
-    "@rollup/plugin-json": "^6.1.0",
     "@rollup/plugin-node-resolve": "^15.2.3",
+    "@rollup/plugin-terser": "^0.4.4",
     "@rollup/plugin-typescript": "^11.1.6",
     "@types/jest": "^29.5.12",
     "@types/node": "^20.14.10",
