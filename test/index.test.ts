@@ -5,8 +5,4 @@ describe('生成数字范围内的随机数', () => {
     const rand = random(1, 1)
     expect(rand).toBe(1)
   })
-  it('random(1, 10) -> should return number', () => {
-    const rand = random(1, 10)
-    expect(rand).toBeGreaterThan(1)
-  })
 })
