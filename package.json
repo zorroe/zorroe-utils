@@ -1,7 +1,7 @@
 {
   "name": "zorroe-utils",
   "type": "module",
-  "version": "0.0.4",
+  "version": "0.1.0",
   "packageManager": "pnpm@9.4.0",
   "description": "zorroe-utils",
   "author": "zorroe <1318753541@qq.com>",
