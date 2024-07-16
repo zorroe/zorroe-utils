@@ -1,11 +1,16 @@
 {
   "name": "zorroe-utils",
   "type": "module",
-  "version": "0.1.2",
+  "version": "0.1.3",
   "packageManager": "pnpm@9.4.0",
-  "description": "zorroe-utils",
-  "author": "zorroe <1318753541@qq.com>",
+  "description": "一些工具方法",
+  "author": "zorroe",
   "license": "MIT",
+  "homepage": "https://github.com/zorroe/zorroe-utils",
+  "repository": {
+    "url": "zorroe/zorroe-utils"
+  },
+  "bugs": "https://github.com/zorroe/zorroe-utils/issues",
   "keywords": [
     "utils"
   ],
