@@ -1,4 +1,18 @@
 import dayjs from 'dayjs'
+import provinces from './location/provinces.json'
+import cities from './location/cities.json'
+
+/**
+ * 根据省份code和城市code返回对应汉字字符串
+ * @param provinceCode 省份code
+ * @param cityCode 城市code
+ * @returns 省份 城市
+ */
+export function getLocation(provinceCode: string, cityCode: string) {
+  const province = provinces.find(p => `${p.code}0000` === `${provinceCode}`)?.name || ''
+  const city = cities.find(c => `${c.code}00` === `${cityCode}`)?.name || ''
+  return `${province} • ${city}`
+}
 
 /**
  * 将时间戳格式化成指定格式

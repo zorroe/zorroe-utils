@@ -2,6 +2,7 @@
   "compilerOptions": {
     "target": "ES5",
     "moduleResolution": "node",
+    "resolveJsonModule": true,
     "strict": true,
     "useUnknownInCatchVariables": false,
     "allowSyntheticDefaultImports": true,
