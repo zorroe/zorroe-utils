@@ -1,6 +1,6 @@
 {
   "name": "zorroe-utils",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "zorroe-utils",
   "main": "dist/zorroe-utils.cjs.js",
   "module": "dist/zorroe-utils.esm.js",
