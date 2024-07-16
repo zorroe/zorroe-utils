@@ -1,14 +1,14 @@
 {
-    "include": ["src/**/*/*.ts", "src/**/*.ts", "src/*.ts", "test/*.*.ts", "test/*/*.*.ts"],
-    "output": "./dist/",
-    "paths": {
-      "src/*": ["src/*"]
-    },
-    "compilerOptions": {
-      "target": "ES5",
-      "moduleResolution": "node",
-      "strict": true,
-      "esModuleInterop": true,
-      "useUnknownInCatchVariables": false
-    }
+  "compilerOptions": {
+    "target": "ES5",
+    "moduleResolution": "node",
+    "strict": true,
+    "useUnknownInCatchVariables": false,
+    "esModuleInterop": true
+  },
+  "include": ["src/**/*/*.ts", "src/**/*.ts", "src/*.ts", "test/*.*.ts", "test/*/*.*.ts"],
+  "output": "./dist/",
+  "paths": {
+    "src/*": ["src/*"]
   }
+}
