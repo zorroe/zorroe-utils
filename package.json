@@ -2,6 +2,7 @@
   "name": "zorroe-utils",
   "type": "module",
   "version": "0.0.4",
+  "packageManager": "pnpm@9.4.0",
   "description": "zorroe-utils",
   "author": "zorroe <1318753541@qq.com>",
   "license": "MIT",
